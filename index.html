@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SangJun Lee</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+</head>
+<body class="light-theme">
+    <div id="image-icon">
+        <div class="circular-image">
+            <img src="assets/Resume Picture.jpg">
+        </div>
+        <div class="icon">
+            <span id = "facebook">
+                <a href ="https://www.facebook.com/sangjun.lee.39566/" class="facebook" target="_blank">
+                    <i class="bi bi-facebook column"></i>
+                </a>
+            </span>
+            <span id="instagram">
+                <a href="https://www.instagram.com/sjlee9999/" class="instagram" target="_blank">
+                    <i class="bi bi-instagram"></i>
+                </a>
+            </span>
+            <span id="linkedin">
+                <a href="https://www.linkedin.com/in/sangjun-lee-614b39220/" class="linkedin" target="_blank">
+                    <i class="bi bi-linkedin"></i>
+                </a>
+            </span>
+            <span id="github">
+                <a href="https://github.com/sjlee9999" class="github" target="_blank">
+                    <i class="bi bi-github"></i>
+                </a>
+            </span>   
+        </div>
+    </div>
+    <span class="container">
+        <h1>Hi! I am <span class="auto-type"></span></h1>
+    </span>
+    <div id="navigation">
+        <a href="projects.html" class="btn btn-info projects" role="button">
+            <i class="bi bi-laptop"></i>
+        </a>
+        <a href="resume.html" class="btn btn-info resume" role="button">
+            <i class="bi bi-file-earmark-text"></i>
+        </a>
+    </div>
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed(".auto-type", {
+             strings: ["SangJun Lee", "a programmer", "a traveler", "a backend engineer", "a student at UC Berkeley", "an EECS major", "a mobile developer"],
+             typeSpeed: 150,
+             backSpeed: 80, 
+             loop: true
+        });
+    </script>
+    <noscript>You need to enable JavaScript to view the full site.</noscript> 
+</body>
+</html>
